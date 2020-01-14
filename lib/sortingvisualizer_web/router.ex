@@ -19,6 +19,7 @@ defmodule SortingvisualizerWeb.Router do
     get "/", PageController, :index
     get "/hello", HelloController, :index
     get "/hello/:messenger", HelloController, :show
+	get "/test", PageController, :test
   end
 
   # Other scopes may use custom stacks.
